@@ -1,0 +1,13 @@
+﻿  Checking Build System
+  CMake is re-running because generate.stamp.list is missing.
+  -- vcpkg not found, toolchain not defined, using integrated libs on win32
+  -- Selecting Windows SDK version 10.0.19041.0 to target Windows 10.0.19042.
+  -- Selected CMAKE_CUDA_ARCHITECTURES: 52
+  -- Your setup does not support half precision (it requires CUDA_ARCHITECTURES >= 70)
+  -- PThreads_windows_DLL_DIR: C:/Users/USER/darknet/3rdparty/pthreads/include/../bin
+  --   ->  darknet is fine for now, but uselib_track has been disabled!
+  --   ->  Please rebuild OpenCV from sources with CUDA support to enable it
+  -- CMAKE_CUDA_FLAGS:  -Wno-deprecated-declarations -Xcompiler="/wd4013,/wd4018,/wd4028,/wd4047,/wd4068,/wd4090,/wd4101,/wd4113,/wd4133,/wd4190,/wd4244,/wd4267,/wd4305,/wd4477,/wd4996,/wd4819,/fp:fast,/DGPU,/DCUDNN,/DOPENCV" -D_WINDOWS -Xcompiler=" /GR /EHsc"
+  -- Configuring done
+  -- Generating done
+  -- Build files have been written to: C:/Users/USER/darknet/build

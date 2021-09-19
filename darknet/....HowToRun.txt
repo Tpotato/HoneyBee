@@ -1,0 +1,1 @@
+.\darknet.exe detector demo build/darknet/x64/data/obj.data cfg/yolov4-tiny-custom.cfg build/darknet/x64/backup/yolov4-tiny-custom_last.weights -ext_output test2.mp4
